@@ -1,4 +1,5 @@
 //https://kunstrasen-sgt.artfabric.net/
+//Custom JavaScript for Websites 2
 
 $("#field_6_76").click();
 
