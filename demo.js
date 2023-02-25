@@ -1,8 +1,6 @@
 //https://kunstrasen-sgt.artfabric.net/
 //Custom JavaScript for Websites 2
 
-$("#field_6_76").click();
-
 function createClass(name,rules){
     var style = document.createElement('style');
     style.type = 'text/css';
@@ -90,5 +88,9 @@ function clearSite() {
     document.getElementsByClassName("popover")[0].classList.add('popoverLeft');
 }
 
-clearSite();
-setInterval(start,5000);
+
+setTimeout(() => {
+    $("#field_6_76").click();
+    clearSite();
+    setInterval(start,5000);
+}, 7000);
